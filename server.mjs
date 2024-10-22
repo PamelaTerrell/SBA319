@@ -21,16 +21,16 @@ app.use(bodyParser.json({ extended: true }));
 // Routes
 app.use('/star', starRoutes);
 
-// app.get('/seed', async (req, res) => {
+ app.get('/seed', async (req, res) => {
 
 //   // OPtional step
-//   await Star.deleteMany({})
+   await Star.deleteMany({})
 
 //   // Create items in database
-//   await Star.create(songs)
+   await Star.create(songs)
 
-//   res.send('Seeding database')
-// });
+   res.send('Seeding database')
+ });
 
 // Listener
 app.listen(PORT, () => {

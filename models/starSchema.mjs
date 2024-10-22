@@ -3,11 +3,11 @@ import mongoose from 'mongoose';
 const starSchema = new mongoose.Schema({
     sign: {
         type: String,
-        required: true,
+        // required: true,
     },
     trait: {
         type: String,
-        required: true,
+       // required: true,
     },
     date: {
         type: String
