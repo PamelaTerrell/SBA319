@@ -14,7 +14,7 @@ export const stars = [
 
     {
         sign: "Virgo",
-        trait: "perfectionis but self-critical",
+        trait: "perfectionist but self-critical",
         date: "Aug 23 - Sep 22"
     },
 
