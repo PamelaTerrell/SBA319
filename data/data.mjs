@@ -1,5 +1,11 @@
 export const stars = [
 
+        {
+        sign: "Gemini",
+        trait: "versatile but impatient",
+        date: "May 21 - June 21"
+        },
+
     {
         sign: "Cancer",
         trait: "passionate but uncommunicative",

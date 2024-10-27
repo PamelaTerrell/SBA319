@@ -6,7 +6,7 @@
 
 *Technologies used:  Mongoose*
 
-*Date route includes 5 collections consisting of astrology sign, trait, and dates*
+*Date route includes 6 collections consisting of astrology sign, trait, and dates*
 
 *Additional astrology signs can be added to the database using the POST request*
 
